@@ -1,0 +1,85 @@
+/* Mobile Device */
+@media screen and (max-width: 510px) {
+  header h1 {
+    font-size: 3rem;
+    line-height: 1.2em;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 1.2rem 2.4rem;
+  }
+  .between {
+    top: 3rem;
+    right: 0.5rem;
+  }
+  main {
+    height: 53vh;
+    flex-direction: column;
+  }
+  .left {
+    margin-top: 6rem;
+  }
+  .guess {
+    font-size: 4rem;
+    padding: 1.5rem;
+    width: 38rem;
+    margin-bottom: 2rem;
+  }
+  .left .btn {
+    padding: 1.4rem 6rem;
+  }
+  .right p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 425px) {
+  header h1 {
+    font-size: 3rem;
+    line-height: 1.2em;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 1.2rem 2.4rem;
+  }
+  .between {
+    top: 3rem;
+    right: 0.5rem;
+  }
+  main {
+    height: 53vh;
+    flex-direction: column;
+  }
+  .left {
+    margin-top: 6rem;
+  }
+  .guess {
+    font-size: 4rem;
+    padding: 1.5rem;
+    width: 38rem;
+    margin-bottom: 2rem;
+  }
+  .left .btn {
+    padding: 1.4rem 6rem;
+  }
+  .right p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .between {
+    font-size: 1.1rem;
+    top: 3.5rem;
+  }
+  .guess {
+    font-size: 3.5rem;
+    padding: 1.3rem;
+    width: 35rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
